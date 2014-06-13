@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D50EEF80194BA66C00D8BB27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50EEF7F194BA66C00D8BB27 /* Foundation.framework */; };
+		D50EEF82194BA66C00D8BB27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50EEF81194BA66C00D8BB27 /* CoreGraphics.framework */; };
+		D50EEF84194BA66C00D8BB27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50EEF83194BA66C00D8BB27 /* UIKit.framework */; };
+		D50EEF8A194BA66C00D8BB27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D50EEF88194BA66C00D8BB27 /* InfoPlist.strings */; };
+		D50EEF8C194BA66C00D8BB27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D50EEF8B194BA66C00D8BB27 /* main.m */; };
+		D50EEF90194BA66C00D8BB27 /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D50EEF8F194BA66C00D8BB27 /* TLAppDelegate.m */; };
+		D50EEF92194BA66C00D8BB27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50EEF91194BA66C00D8BB27 /* Images.xcassets */; };
+		D50EEF99194BA66C00D8BB27 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50EEF98194BA66C00D8BB27 /* XCTest.framework */; };
+		D50EEF9A194BA66C00D8BB27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50EEF7F194BA66C00D8BB27 /* Foundation.framework */; };
+		D50EEF9B194BA66C00D8BB27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50EEF83194BA66C00D8BB27 /* UIKit.framework */; };
+		D50EEFA3194BA66C00D8BB27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D50EEFA1194BA66C00D8BB27 /* InfoPlist.strings */; };
+		D50EEFA5194BA66C00D8BB27 /* SecretFormulaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D50EEFA4194BA66C00D8BB27 /* SecretFormulaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D50EEF9C194BA66C00D8BB27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D50EEF74194BA66C00D8BB27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D50EEF7B194BA66C00D8BB27;
+			remoteInfo = SecretFormula;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D50EEF7C194BA66C00D8BB27 /* SecretFormula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretFormula.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50EEF7F194BA66C00D8BB27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D50EEF81194BA66C00D8BB27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D50EEF83194BA66C00D8BB27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D50EEF87194BA66C00D8BB27 /* SecretFormula-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretFormula-Info.plist"; sourceTree = "<group>"; };
+		D50EEF89194BA66C00D8BB27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D50EEF8B194BA66C00D8BB27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D50EEF8D194BA66C00D8BB27 /* SecretFormula-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecretFormula-Prefix.pch"; sourceTree = "<group>"; };
+		D50EEF8E194BA66C00D8BB27 /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLAppDelegate.h; sourceTree = "<group>"; };
+		D50EEF8F194BA66C00D8BB27 /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLAppDelegate.m; sourceTree = "<group>"; };
+		D50EEF91194BA66C00D8BB27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D50EEF97194BA66C00D8BB27 /* SecretFormulaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretFormulaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50EEF98194BA66C00D8BB27 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D50EEFA0194BA66C00D8BB27 /* SecretFormulaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretFormulaTests-Info.plist"; sourceTree = "<group>"; };
+		D50EEFA2194BA66C00D8BB27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D50EEFA4194BA66C00D8BB27 /* SecretFormulaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretFormulaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D50EEF79194BA66C00D8BB27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50EEF82194BA66C00D8BB27 /* CoreGraphics.framework in Frameworks */,
+				D50EEF84194BA66C00D8BB27 /* UIKit.framework in Frameworks */,
+				D50EEF80194BA66C00D8BB27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50EEF94194BA66C00D8BB27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50EEF99194BA66C00D8BB27 /* XCTest.framework in Frameworks */,
+				D50EEF9B194BA66C00D8BB27 /* UIKit.framework in Frameworks */,
+				D50EEF9A194BA66C00D8BB27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D50EEF73194BA66C00D8BB27 = {
+			isa = PBXGroup;
+			children = (
+				D50EEF85194BA66C00D8BB27 /* SecretFormula */,
+				D50EEF9E194BA66C00D8BB27 /* SecretFormulaTests */,
+				D50EEF7E194BA66C00D8BB27 /* Frameworks */,
+				D50EEF7D194BA66C00D8BB27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D50EEF7D194BA66C00D8BB27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D50EEF7C194BA66C00D8BB27 /* SecretFormula.app */,
+				D50EEF97194BA66C00D8BB27 /* SecretFormulaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D50EEF7E194BA66C00D8BB27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D50EEF7F194BA66C00D8BB27 /* Foundation.framework */,
+				D50EEF81194BA66C00D8BB27 /* CoreGraphics.framework */,
+				D50EEF83194BA66C00D8BB27 /* UIKit.framework */,
+				D50EEF98194BA66C00D8BB27 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D50EEF85194BA66C00D8BB27 /* SecretFormula */ = {
+			isa = PBXGroup;
+			children = (
+				D50EEF8E194BA66C00D8BB27 /* TLAppDelegate.h */,
+				D50EEF8F194BA66C00D8BB27 /* TLAppDelegate.m */,
+				D50EEF91194BA66C00D8BB27 /* Images.xcassets */,
+				D50EEF86194BA66C00D8BB27 /* Supporting Files */,
+			);
+			path = SecretFormula;
+			sourceTree = "<group>";
+		};
+		D50EEF86194BA66C00D8BB27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D50EEF87194BA66C00D8BB27 /* SecretFormula-Info.plist */,
+				D50EEF88194BA66C00D8BB27 /* InfoPlist.strings */,
+				D50EEF8B194BA66C00D8BB27 /* main.m */,
+				D50EEF8D194BA66C00D8BB27 /* SecretFormula-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D50EEF9E194BA66C00D8BB27 /* SecretFormulaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D50EEFA4194BA66C00D8BB27 /* SecretFormulaTests.m */,
+				D50EEF9F194BA66C00D8BB27 /* Supporting Files */,
+			);
+			path = SecretFormulaTests;
+			sourceTree = "<group>";
+		};
+		D50EEF9F194BA66C00D8BB27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D50EEFA0194BA66C00D8BB27 /* SecretFormulaTests-Info.plist */,
+				D50EEFA1194BA66C00D8BB27 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D50EEF7B194BA66C00D8BB27 /* SecretFormula */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50EEFA8194BA66C00D8BB27 /* Build configuration list for PBXNativeTarget "SecretFormula" */;
+			buildPhases = (
+				D50EEF78194BA66C00D8BB27 /* Sources */,
+				D50EEF79194BA66C00D8BB27 /* Frameworks */,
+				D50EEF7A194BA66C00D8BB27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecretFormula;
+			productName = SecretFormula;
+			productReference = D50EEF7C194BA66C00D8BB27 /* SecretFormula.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D50EEF96194BA66C00D8BB27 /* SecretFormulaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50EEFAB194BA66C00D8BB27 /* Build configuration list for PBXNativeTarget "SecretFormulaTests" */;
+			buildPhases = (
+				D50EEF93194BA66C00D8BB27 /* Sources */,
+				D50EEF94194BA66C00D8BB27 /* Frameworks */,
+				D50EEF95194BA66C00D8BB27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D50EEF9D194BA66C00D8BB27 /* PBXTargetDependency */,
+			);
+			name = SecretFormulaTests;
+			productName = SecretFormulaTests;
+			productReference = D50EEF97194BA66C00D8BB27 /* SecretFormulaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D50EEF74194BA66C00D8BB27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Erik Engheim";
+				TargetAttributes = {
+					D50EEF96194BA66C00D8BB27 = {
+						TestTargetID = D50EEF7B194BA66C00D8BB27;
+					};
+				};
+			};
+			buildConfigurationList = D50EEF77194BA66C00D8BB27 /* Build configuration list for PBXProject "SecretFormula" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D50EEF73194BA66C00D8BB27;
+			productRefGroup = D50EEF7D194BA66C00D8BB27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D50EEF7B194BA66C00D8BB27 /* SecretFormula */,
+				D50EEF96194BA66C00D8BB27 /* SecretFormulaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D50EEF7A194BA66C00D8BB27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50EEF8A194BA66C00D8BB27 /* InfoPlist.strings in Resources */,
+				D50EEF92194BA66C00D8BB27 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50EEF95194BA66C00D8BB27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50EEFA3194BA66C00D8BB27 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D50EEF78194BA66C00D8BB27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50EEF90194BA66C00D8BB27 /* TLAppDelegate.m in Sources */,
+				D50EEF8C194BA66C00D8BB27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50EEF93194BA66C00D8BB27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50EEFA5194BA66C00D8BB27 /* SecretFormulaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D50EEF9D194BA66C00D8BB27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D50EEF7B194BA66C00D8BB27 /* SecretFormula */;
+			targetProxy = D50EEF9C194BA66C00D8BB27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D50EEF88194BA66C00D8BB27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50EEF89194BA66C00D8BB27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D50EEFA1194BA66C00D8BB27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50EEFA2194BA66C00D8BB27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D50EEFA6194BA66C00D8BB27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D50EEFA7194BA66C00D8BB27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D50EEFA9194BA66C00D8BB27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecretFormula/SecretFormula-Prefix.pch";
+				INFOPLIST_FILE = "SecretFormula/SecretFormula-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D50EEFAA194BA66C00D8BB27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecretFormula/SecretFormula-Prefix.pch";
+				INFOPLIST_FILE = "SecretFormula/SecretFormula-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D50EEFAC194BA66C00D8BB27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecretFormula.app/SecretFormula";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecretFormula/SecretFormula-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SecretFormulaTests/SecretFormulaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D50EEFAD194BA66C00D8BB27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecretFormula.app/SecretFormula";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecretFormula/SecretFormula-Prefix.pch";
+				INFOPLIST_FILE = "SecretFormulaTests/SecretFormulaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D50EEF77194BA66C00D8BB27 /* Build configuration list for PBXProject "SecretFormula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50EEFA6194BA66C00D8BB27 /* Debug */,
+				D50EEFA7194BA66C00D8BB27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D50EEFA8194BA66C00D8BB27 /* Build configuration list for PBXNativeTarget "SecretFormula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50EEFA9194BA66C00D8BB27 /* Debug */,
+				D50EEFAA194BA66C00D8BB27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D50EEFAB194BA66C00D8BB27 /* Build configuration list for PBXNativeTarget "SecretFormulaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50EEFAC194BA66C00D8BB27 /* Debug */,
+				D50EEFAD194BA66C00D8BB27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D50EEF74194BA66C00D8BB27 /* Project object */;
+}
