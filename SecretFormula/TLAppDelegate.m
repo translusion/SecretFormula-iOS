@@ -7,6 +7,7 @@
 //
 
 #import "TLAppDelegate.h"
+#import "TLSecretsController.h"
 
 @implementation TLAppDelegate
 
@@ -15,6 +16,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    TLSecretsController *secrets = [[TLSecretsController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:secrets];
+    self.window.rootViewController = nav;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

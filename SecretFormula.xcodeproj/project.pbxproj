@@ -19,6 +19,10 @@
 		D50EEF9B194BA66C00D8BB27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50EEF83194BA66C00D8BB27 /* UIKit.framework */; };
 		D50EEFA3194BA66C00D8BB27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D50EEFA1194BA66C00D8BB27 /* InfoPlist.strings */; };
 		D50EEFA5194BA66C00D8BB27 /* SecretFormulaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D50EEFA4194BA66C00D8BB27 /* SecretFormulaTests.m */; };
+		D50EEFB4194BA8B100D8BB27 /* TLSecretsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50EEFB2194BA8B100D8BB27 /* TLSecretsController.m */; };
+		D50EEFB5194BA8B100D8BB27 /* TLSecretsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50EEFB3194BA8B100D8BB27 /* TLSecretsController.xib */; };
+		D50EEFB9194C354300D8BB27 /* TLPasswordGeneratorController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50EEFB7194C354300D8BB27 /* TLPasswordGeneratorController.m */; };
+		D50EEFBC194C373F00D8BB27 /* PasswordGeneratorScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50EEFBB194C373F00D8BB27 /* PasswordGeneratorScene.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		D50EEFA0194BA66C00D8BB27 /* SecretFormulaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretFormulaTests-Info.plist"; sourceTree = "<group>"; };
 		D50EEFA2194BA66C00D8BB27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D50EEFA4194BA66C00D8BB27 /* SecretFormulaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretFormulaTests.m; sourceTree = "<group>"; };
+		D50EEFB1194BA8B100D8BB27 /* TLSecretsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLSecretsController.h; path = SecretFormula/Controller/TLSecretsController.h; sourceTree = "<group>"; };
+		D50EEFB2194BA8B100D8BB27 /* TLSecretsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLSecretsController.m; path = SecretFormula/Controller/TLSecretsController.m; sourceTree = "<group>"; };
+		D50EEFB3194BA8B100D8BB27 /* TLSecretsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TLSecretsController.xib; path = SecretFormula/Controller/TLSecretsController.xib; sourceTree = "<group>"; };
+		D50EEFB6194C354300D8BB27 /* TLPasswordGeneratorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLPasswordGeneratorController.h; path = SecretFormula/Controller/TLPasswordGeneratorController.h; sourceTree = "<group>"; };
+		D50EEFB7194C354300D8BB27 /* TLPasswordGeneratorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLPasswordGeneratorController.m; path = SecretFormula/Controller/TLPasswordGeneratorController.m; sourceTree = "<group>"; };
+		D50EEFBB194C373F00D8BB27 /* PasswordGeneratorScene.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PasswordGeneratorScene.storyboard; path = SecretFormula/Controller/PasswordGeneratorScene.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,9 @@
 		D50EEF73194BA66C00D8BB27 = {
 			isa = PBXGroup;
 			children = (
+				D50EEFB0194BA82000D8BB27 /* View */,
+				D50EEFAF194BA81900D8BB27 /* Controller */,
+				D50EEFAE194BA80700D8BB27 /* Model */,
 				D50EEF85194BA66C00D8BB27 /* SecretFormula */,
 				D50EEF9E194BA66C00D8BB27 /* SecretFormulaTests */,
 				D50EEF7E194BA66C00D8BB27 /* Frameworks */,
@@ -142,6 +155,34 @@
 				D50EEFA1194BA66C00D8BB27 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D50EEFAE194BA80700D8BB27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = SecretFormula;
+			sourceTree = "<group>";
+		};
+		D50EEFAF194BA81900D8BB27 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D50EEFB1194BA8B100D8BB27 /* TLSecretsController.h */,
+				D50EEFB2194BA8B100D8BB27 /* TLSecretsController.m */,
+				D50EEFB3194BA8B100D8BB27 /* TLSecretsController.xib */,
+				D50EEFB6194C354300D8BB27 /* TLPasswordGeneratorController.h */,
+				D50EEFB7194C354300D8BB27 /* TLPasswordGeneratorController.m */,
+				D50EEFBB194C373F00D8BB27 /* PasswordGeneratorScene.storyboard */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D50EEFB0194BA82000D8BB27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +261,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50EEFB5194BA8B100D8BB27 /* TLSecretsController.xib in Resources */,
+				D50EEFBC194C373F00D8BB27 /* PasswordGeneratorScene.storyboard in Resources */,
 				D50EEF8A194BA66C00D8BB27 /* InfoPlist.strings in Resources */,
 				D50EEF92194BA66C00D8BB27 /* Images.xcassets in Resources */,
 			);
@@ -240,7 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50EEFB9194C354300D8BB27 /* TLPasswordGeneratorController.m in Sources */,
 				D50EEF90194BA66C00D8BB27 /* TLAppDelegate.m in Sources */,
+				D50EEFB4194BA8B100D8BB27 /* TLSecretsController.m in Sources */,
 				D50EEF8C194BA66C00D8BB27 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
